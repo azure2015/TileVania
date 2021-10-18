@@ -7405,9 +7405,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 431392451, guid: d897e383af467dd40afc59f6a29613f0, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 431392451, guid: d897e383af467dd40afc59f6a29613f0, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 552847613711474806, guid: d897e383af467dd40afc59f6a29613f0, type: 3}
       propertyPath: runSpeed
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 552847613711474806, guid: d897e383af467dd40afc59f6a29613f0, type: 3}
+      propertyPath: jumpSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2818630819439227776, guid: d897e383af467dd40afc59f6a29613f0, type: 3}
       propertyPath: m_Name
