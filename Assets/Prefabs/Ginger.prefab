@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 8856863593839382454}
   m_Layer: 8
   m_Name: Ginger
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,7 +125,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -967223
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 1857188551261513057, guid: 0f63b721cb2e085419b35200cdf53db4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -172,8 +172,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0117836, y: -0.06201899}
-  m_Size: {x: 0.63352203, y: 0.89316154}
+  m_Offset: {x: -0.0117836, y: -0.05026865}
+  m_Size: {x: 0.63352203, y: 0.86966085}
   m_Direction: 0
 --- !u!114 &7591877411669278487
 MonoBehaviour:
@@ -221,8 +221,8 @@ MonoBehaviour:
   jumpSpeed: 18
   climbSpeed: 4
   deathKick: {x: 10, y: 10}
-  bullet: {fileID: 0}
-  bulletStart: {fileID: 0}
+  bullet: {fileID: 8635335488764682339, guid: 82979dc0db684584693147f9d73182ad, type: 3}
+  bulletStart: {fileID: 5568426031268533550}
 --- !u!61 &8856863593839382454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -232,11 +232,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 2818630819439227776}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 101a56c466d9c8641ae70d48d98c4e25, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.028093338, y: -0.4434651}
+  m_Offset: {x: -0.028093338, y: -0.45955533}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -247,5 +247,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.49803543, y: 0.08941364}
+  m_Size: {x: 0.49803543, y: 0.12159407}
   m_EdgeRadius: 0
